@@ -12,12 +12,12 @@
     <div id="header">
         <div class="container">
             <nav>
-               <img src="images/Logo2.png" class="logo">
+               <img src="images/logo.jpeg.png" class="logo">
                 <ul id="sidemenu">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="education.html">Education</a></li>
-                    <li><a href=">palliative.html">Palliative Care</a></li>
+                    <li><a href="palliative.html">Palliative Care</a></li>
                     <i class="fas fa-times" onclick="closemenu()"></i>
                 </ul>
                 <i class="fas fa-bars" onclick="openmenu()"></i>
@@ -32,11 +32,32 @@
                 <img src="images/images3.jpeg">
             </div>
             <div class="about-col-2">
-                <h1 class="sub-title">Inspiring Knowledge</h1>
-                <p>At Impact Link , our journey began with a simple belief: that education is the key to unlocking a brighter future for all. Founded in [Year], our organization was born out of a passion for equipping individuals with the tools they need to thrive.
-                </p><br>
-                <p>Our dedicated team of educators, community leaders, and passionate volunteers are the heart and soul of Impact Link. Together, we bring diverse skills, experiences, and expertise to drive our mission forward.Volunteering with Impact Link has been an incredibly rewarding experience. Seeing the smiles on the faces of eager learners makes every moment worthwhile.
-                    </p>
+                <h1 class="sub-title">About Me</h1>
+                <p>I am an enthusiastic and dedicated IT student with a passion for technology and a drive to learn and grow in the field. I am currently pursuing my Bachelor's degree in Information Technology, and I am excited about the endless possibilities that the IT industry offers. My goal is to become a skilled IT professional and make a meaningful contribution to the ever-evolving world of technology.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                        <li><span>Web Development</span><br> Web App Development</li>
+                        <li><span>App Development</span><br>Building Android/iOS apps</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2023</span><br> Internship at Oasis infobyte</li>
+                        <li><span>2022</span><br>Internship at grip spark foundation</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2025</span><br>BS from IIT Madras</li>
+                        <li><span>2025</span><br>Btech from LBSITW</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
