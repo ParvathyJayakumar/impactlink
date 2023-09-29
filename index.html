@@ -9,20 +9,7 @@
     <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorgin="anonymous"></script>
 </head>
 <body>
-    <div class="slideshow-container">
-        <div class="mySlides">
-            <img src="/images/slide1.webp" alt="Image 1">
-        </div>
-    
-        <div class="mySlides">
-            <img src="image2.jpg" alt="Image 2">
-        </div>
-    
-        <div class="mySlides">
-            <img src="image3.jpg" alt="Image 3">
-        </div>
-    
-        <div id="header">
+    <div id="header">
             <div class="container">
                 <nav>
                     <img src="images/Parvathy.jpg" class="logo">
@@ -35,37 +22,11 @@
                         <i class="fas fa-times" onclick="closemenu()"></i>
                     </ul>
                     <i class="fas fa-bars" onclick="openmenu()"></i>
+                </nav>
             </div>
-        </div> 
     </div> 
-    <script>
-        var slideIndex = 0;
-        showSlides();
     
-        function showSlides() {
-            var i;
-            var slides = document.getElementsByClassName("mySlides");
-            
-            for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
-            }
-    
-            slideIndex++;
-    
-            if (slideIndex > slides.length) {
-                slideIndex = 1;
-            }
-    
-            for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
-            }
-    
-            slides[slideIndex - 1].style.display = "block";
-            dots[slideIndex - 1].className += " active";
-    
-            setTimeout(showSlides, 2000); // Change image every 2 seconds
-        }
-    </script>
+     
 <!-------about--------->
 <div id="about">
     <div class="container">

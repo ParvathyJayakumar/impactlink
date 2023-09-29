@@ -10,13 +10,12 @@ html{
 }
 
 body{
-    background: #080808;
     color: #fff;
 }
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(images/down2.jpg);
+    background-image: url(../../images/images1.jpeg);
     background-size: auto;
     background-position:right;
 }
