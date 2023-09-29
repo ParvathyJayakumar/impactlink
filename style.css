@@ -30,8 +30,8 @@ nav{
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.logo{
-    width: 200px;
+.container .logo{
+    width: 100px;
 }
 
 nav ul li{
