@@ -167,7 +167,7 @@ nav ul li a:hover::after{
 }
 
 .services-list div{
-    background: #262626;
+    background: #ff004f;
     padding: 40px;
     font-size: 13px;
     font-weight: 300;
@@ -347,7 +347,7 @@ form .btn2{
     width: 100%;
     text-align: center;
     padding: 25px 0;
-    background: #262626;
+    background: #fff;
     font-weight: 300;
     margin-top: 20px;
 }
