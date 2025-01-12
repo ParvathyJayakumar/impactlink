@@ -1,4 +1,5 @@
 **Impact Link: Empowering Education for All**
+
         Impact Link is a platform designed to bridge the gap between donors, volunteers, and underprivileged students. Our mission is to ensure access to quality education for every child, regardless of their 
         circumstances. With Impact Link, individuals and organizations can contribute to this noble cause by making donations or volunteering their time and skills.
 
